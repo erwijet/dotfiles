@@ -5,7 +5,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)" > /dev/null
 alias c="clear"
 alias y="yarn"
 alias k="kubectl"
-alias l="exa --long --headers"
+alias l="exa --long --header"
 alias f="fzf"
 
 alias lg="lazygit"
