@@ -25,6 +25,7 @@ alias pbx="podman buildx build --platform linux/amd64"
 alias ash="acme.sh --yes-I-know-dns-manual-mode-enough-go-ahead-please"
 alias vim="nvim"
 alias ap1="awk '{print "'$1'"}'"
+alias enc="gpg --batch --yes --symmetric --passphrase"
 
 alias sctl="systemctl"
 alias proc="systemctl status"
