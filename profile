@@ -7,6 +7,7 @@ alias y="yarn"
 alias k="kubectl"
 alias l="exa --long --header"
 alias f="fzf"
+alias g="git"
 
 alias lg="lazygit"
 alias kg="kubectl get"
@@ -14,13 +15,25 @@ alias kd="kubectl delete"
 alias kl="kubectl logs"
 alias kc="kubectl create"
 alias hc="hancock"
+alias gl="glab"
+alias vf="f | xargs nvim"
+alias xa="xargs"
 
 alias haf="kubectl apply -f"
 alias kdf="kubectl delete -f"
-alias dbx="docker buildx build --platform linux/amd64"
+alias pbx="podman buildx build --platform linux/amd64"
 alias ash="acme.sh --yes-I-know-dns-manual-mode-enough-go-ahead-please"
+alias vim="nvim"
+alias ap1="awk '{print "'$1'"}'"
 
 alias sctl="systemctl"
 alias proc="systemctl status"
+alias nano="nvim"
 
 alias proed="vim ~/.profile && source ~/.profile"
+alias frick="sudo !!"
+alias become="ssh"
+
+
+export GL_HOST=https://gitlab.bryx.com
+. "/Users/tyler/.acme.sh/acme.sh.env"
