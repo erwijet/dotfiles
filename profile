@@ -8,6 +8,7 @@ alias k="kubectl"
 alias l="exa --long --header"
 alias f="fzf"
 alias g="git"
+alias x="exit"
 
 alias lg="lazygit"
 alias kg="kubectl get"
@@ -26,10 +27,12 @@ alias ash="acme.sh --yes-I-know-dns-manual-mode-enough-go-ahead-please"
 alias vim="nvim"
 alias ap1="awk '{print "'$1'"}'"
 alias enc="gpg --batch --yes --symmetric --passphrase"
+alias qwe='cd ~ && cd $(find . -maxdepth 5 -type d -print | f --no-clear --height 10) && c'
 
 alias sctl="systemctl"
 alias proc="systemctl status"
 alias nano="nvim"
+alias lgtm="gl mr approve"
 
 alias proed="vim ~/.profile && source ~/.profile"
 alias frick="sudo !!"
